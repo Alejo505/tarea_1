@@ -1,4 +1,9 @@
 #!/bin/bash
+
+#touch netsize_all.txt
+#chmod +rx netsize_all.txt
+#nano netsize_all.txt
+
 # la dirección del directorio donde se trabajó es Desktop/CSB/CSB/unix/data
 #parte dos del deber
 
@@ -11,3 +16,5 @@ done
 # con do empiezo diciendo has esto, uso echo $() para cada archivo con sus debidas
 # columnas y filas se ejecuten en la misma fila, el ls me enlista todos los archivos,
 # y los demás comandos son los mismos explicados en la primera parte del deber.
+
+#batch netsize_all.txt
