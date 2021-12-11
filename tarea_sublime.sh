@@ -7,7 +7,7 @@
 # el touch crea un archivo, el chmod +rx me asigna permisos 
 #de ejecución automática, y el nano abre el archivo para edición.
 
-# la dirección del directorio donde se trabajó es Desktop/CSB/CSB/unix/data
+# la dirección del directorio donde se trabajó es Desktop/CSB/CSB/unix/data/Saavedra2013
 #parte 1 del deber. 
 
 echo "Filename: ../data/Saavedra2013/n1.txt"
