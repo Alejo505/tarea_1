@@ -1,6 +1,14 @@
 #!/bin/bash
+
+#touch netsize.sh
+#chmod +rx netsize.sh
+#nano netsize.sh 
+
+# el touch crea un archivo, el chmod +rx me asigna permisos 
+#de ejecución automática, y el nano abre el archivo para edición.
+
 # la dirección del directorio donde se trabajó es Desktop/CSB/CSB/unix/data
-#parte 1 del deber. usar batch netsize.sh n1.txt
+#parte 1 del deber. 
 
 echo "Filename: ../data/Saavedra2013/n1.txt"
 
@@ -18,3 +26,5 @@ echo "Number of columns:" $( head -n 1 $1 | tr -d " " | tr -d "\n" | wc -c )
 #archivo seleccionado y añado más ordenes usando el "|" , tr - "" borra los espacios
 # del archivo para q no los tome en cuenta y con \n quito un espacio extra
 # finalmente wc-c muestra la cantidad de carácteres que son los números en este caso.
+
+#usar batch netsize.sh n1.txt
