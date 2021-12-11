@@ -1,0 +1,7 @@
+# batch netsize.sh n1.sh > netsize.txt
+# cat netsize.txt
+
+$ cat netsize.txt
+Filename: ../data/Saavedra2013/n1.txt
+Number of rows: 97
+Number of columns: 80
